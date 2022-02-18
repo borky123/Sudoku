@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:lightgray;
+}
+#mistakes {
+    color: sienna;
+}
+#board {
+    width: 452px;
+    height: 452px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell {
+    width: 48px;
+    height: 48px;
+    border: 1px solid darkgray;
+
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#numbers {
+    width: 450px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+}
+.numbersCell {
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selected-numbersCell {
+    background-color: aqua;
+}
+.cell-start {
+    background-color: rgb(120, 224, 190);
+}
+.horisontal {
+    border-bottom: 2px solid black;
+}
+.vertical {
+    border-right: 2px solid black;
+}
